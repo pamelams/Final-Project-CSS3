@@ -1,0 +1,133 @@
+body{
+	padding: 5px;
+	margin: 15px;
+	background-color: #1e6108;
+}
+
+h1{
+	color: #FFFFFF;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 15px;
+}
+
+header{
+	background: #1e6108c7 url('../images/flywheel.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 10px;
+	clear: both;
+	background-blend-mode: multiply;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 70%;
+	border: solid #ffffff 1px;
+
+}
+
+nav{
+	display: inline;
+	width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav > a{
+	color: #000000;
+	background-color: rgba(255, 255, 255, 0.3);
+	display: inline-block;
+	margin: 2px;
+	border-radius: 5px;
+	text-decoration: none;
+	text-align: center;
+	padding: 15px 50px;
+	margin: 2px 75px 50px 75px;
+}
+
+nav > a:hover{
+	background-color: #ffffff;
+	color: #1e6108;
+}
+
+.active{
+	background-color: #ffffff;
+	color: #1e6108;
+}
+
+h2{
+	color: #1e6108;
+	text-transform: uppercase;
+}
+
+.left{
+	display: inline-block;
+	background-color: #1e6108;
+	float: left;
+	width: 20%;
+}
+.right{
+	display: inline-block;
+	padding: 20px;
+	margin-top: 20px; 
+	width: 75%;
+	float: right;
+	background-color: #ffffff;
+}
+
+table{
+	font-size: 110%;
+	font-weight: bold;
+	font-family: Arial;
+	width: 70%;
+	margin: 20px 75px;
+	border-radius: 5px;
+}
+
+tr{
+	opacity: 0.7;
+
+}
+
+th{
+	color: #ffffff;
+	background-color: #1e6108;
+	background: -webkit-linear-gradient(#1e6108, #1b1b04);
+	background: -moz-linear-gradient(#1e6108, #1b1b04);
+	background: linear-gradient(#1e6108, #1b1b04);
+	padding: 15px 10px;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	border: solid #1e6108 2px;
+	border-bottom: solid #1e6108 4px;
+}
+
+td{
+	padding: 10px;
+	color: #1C1C1C;
+	background-color: #DCDCDC;
+	border-radius: 2px;
+	text-align: center;
+
+}
+
+th:first-child{
+	text-align: left;
+}
+
+tr > td:first-child{
+	text-align: left;
+}
+
+tr:first-child{
+	opacity: 1;
+}
+
+tr:hover{
+	opacity: 1;
+}
